@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio | Saurabh Jha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-root">
+        <div class="bg-grid"></div>
+        <div class="bg-glow"></div>
+
+        <header class="site-header">
+            <div class="nav-inner">
+                <a href="#hero" class="nav-logo">
+                    <span class="nav-logo-mark">SJ</span>
+                    <span class="nav-logo-text">Portfolio</span>
+                </a>
+
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="nav-links">
+                    <a href="#hero" class="nav-link nav-link-active">Home</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#timeline" class="nav-link">Journey</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page-content">
+            <section id="hero" class="hero">
+                <div class="hero-left">
+                    <div class="hero-label">
+                        <span class="hero-label-dot"></span>
+                        <span>Open to Frontend Roles</span>
+                    </div>
+
+                    <p class="hero-kicker">Frontend Developer</p>
+
+                    <h1 class="hero-title">
+                        Hi, I&apos;m <span class="hero-name-gradient">Saurabh Jha</span>.
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        I build clean, responsive and interactive web experiences using
+                        <span>React</span>, <span>TypeScript</span> and modern
+                        <span>frontend tooling</span>.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">
+                            <span>View Projects</span>
+                            <span class="btn-arrow">↗</span>
+                        </a>
+
+                        <a href="/Saurabh-Jha-CV.pdf" class="btn-secondary">
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div class="hero-meta-item">
+                            <span class="hero-meta-dot"></span>
+                            <span>Based in India</span>
+                        </div>
+                        <div class="hero-meta-item">
+                            <span class="hero-meta-dot sky"></span>
+                            <span>Focus: Frontend, UI Engineering</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="card-wrapper float-slow">
+                        <div class="card-glow"></div>
+                        <div class="card">
+                            <div class="card-top">
+                                <div class="card-status">
+                                    <span class="card-status-dot"></span>
+                                    <span>Currently crafting</span>
+                                </div>
+                                <div class="card-pill">Frontend · React</div>
+                            </div>
+
+                            <div class="card-badges">
+                                <span class="card-badge">HTML</span>
+                                <span class="card-badge">CSS</span>
+                                <span class="card-badge">JavaScript</span>
+                                <span class="card-badge">TypeScript</span>
+                                <span class="card-badge">React</span>
+                                <span class="card-badge">Tailwind</span>
+                            </div>
+
+                            <div class="card-terminal">
+                                <div class="terminal-header">
+                                    <span class="terminal-dot red"></span>
+                                    <span class="terminal-dot yellow"></span>
+                                    <span class="terminal-dot green"></span>
+                                    <span style="margin-left: 0.4rem;">portfolio@terminal: ~</span>
+                                </div>
+                                <p>
+                                    <span class="terminal-prompt">$</span> npm run build
+                                </p>
+                                <p class="terminal-line-secondary">
+                                    ✔ Optimizing UI, animations & performance…
+                                </p>
+                            </div>
+
+                            <div class="card-bottom">
+                                <span>Available for full-time roles</span>
+                                <span class="highlight">Let&apos;s collaborate →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <p class="section-kicker">Selected Work</p>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">
+                        A few things I&apos;ve built recently, focusing on clean UI, smooth
+                        interactions and solid frontend architecture.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <div class="project-card-wrapper">
+                        <div class="project-card">
+                            <div class="project-tag">Featured</div>
+                            <h3 class="project-title">LMS Dashboard Interface</h3>
+                            <p class="project-desc">
+                                A responsive learning management dashboard with role-based views,
+                                analytics cards and video integration using a custom UI system.
+                            </p>
+                            <div class="project-meta">
+                                <div class="project-tech">
+                                    <span class="project-pill">React</span>
+                                    <span class="project-pill">TypeScript</span>
+                                    <span class="project-pill">Tailwind</span>
+                                </div>
+                                <a href="#" class="project-link">View repo ↗</a>
+                            </div>
+                        </div>
+                        <div class="project-glow"></div>
+                    </div>
+
+                    <div class="project-card-wrapper">
+                        <div class="project-card">
+                            <div class="project-tag">UI Engineering</div>
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-desc">
+                                This site — built with a custom dark theme, animated background,
+                                reusable components and attention to micro-interactions.
+                            </p>
+                            <div class="project-meta">
+                                <div class="project-tech">
+                                    <span class="project-pill">HTML</span>
+                                    <span class="project-pill">CSS</span>
+                                    <span class="project-pill">Animations</span>
+                                </div>
+                                <a href="#" class="project-link">Live demo ↗</a>
+                            </div>
+                        </div>
+                        <div class="project-glow"></div>
+                    </div>
+
+                    <div class="project-card-wrapper">
+                        <div class="project-card">
+                            <div class="project-tag">Frontend</div>
+                            <h3 class="project-title">URL Shortener App</h3>
+                            <p class="project-desc">
+                                A clean URL shortener interface with stats overview, copy-to-clipboard
+                                and mobile-first design.
+                            </p>
+                            <div class="project-meta">
+                                <div class="project-tech">
+                                    <span class="project-pill">React</span>
+                                    <span class="project-pill">REST APIs</span>
+                                    <span class="project-pill">Responsive</span>
+                                </div>
+                                <a href="#" class="project-link">View repo ↗</a>
+                            </div>
+                        </div>
+                        <div class="project-glow"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills-section">
+                <div class="section-header">
+                    <p class="section-kicker">Skills</p>
+                    <h2 class="section-title">What I work with</h2>
+                    <p class="section-subtitle">
+                        A practical overview of the tools and areas I&apos;m most comfortable with
+                        when building frontend experiences.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-row-card">
+                        <div class="skill-card-header">
+                            <div class="skill-title-group">
+                                <h3 class="skill-title">Core Web</h3>
+                                <p class="skill-subtitle">The base of everything I build</p>
+                            </div>
+                            <span class="skill-level-pill">Strong</span>
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="skill-progress-labels">
+                                <span>HTML · CSS</span>
+                                <span>~90%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-tags-row">
+                            <span class="skill-tag-pill">HTML5</span>
+                            <span class="skill-tag-pill">Semantic markup</span>
+                            <span class="skill-tag-pill">Flexbox</span>
+                            <span class="skill-tag-pill">CSS Grid</span>
+                            <span class="skill-tag-pill">Responsive design</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-row-card">
+                        <div class="skill-card-header">
+                            <div class="skill-title-group">
+                                <h3 class="skill-title">JavaScript &amp; TypeScript</h3>
+                                <p class="skill-subtitle">Logic, data and interaction</p>
+                            </div>
+                            <span class="skill-level-pill">Advanced</span>
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="skill-progress-labels">
+                                <span>JS · TS</span>
+                                <span>~85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-tags-row">
+                            <span class="skill-tag-pill">ES6+</span>
+                            <span class="skill-tag-pill">TypeScript</span>
+                            <span class="skill-tag-pill">Async / Promises</span>
+                            <span class="skill-tag-pill">API integration</span>
+                            <span class="skill-tag-pill">DOM</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-row-card">
+                        <div class="skill-card-header">
+                            <div class="skill-title-group">
+                                <h3 class="skill-title">React Ecosystem</h3>
+                                <p class="skill-subtitle">Components and state</p>
+                            </div>
+                            <span class="skill-level-pill">Advanced</span>
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="skill-progress-labels">
+                                <span>React</span>
+                                <span>~80%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-tags-row">
+                            <span class="skill-tag-pill">React</span>
+                            <span class="skill-tag-pill">Hooks</span>
+                            <span class="skill-tag-pill">Component patterns</span>
+                            <span class="skill-tag-pill">Routing</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-row-card">
+                        <div class="skill-card-header">
+                            <div class="skill-title-group">
+                                <h3 class="skill-title">UI &amp; Experience</h3>
+                                <p class="skill-subtitle">How it feels to use</p>
+                            </div>
+                            <span class="skill-level-pill">Strong</span>
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="skill-progress-labels">
+                                <span>Design &amp; UX</span>
+                                <span>~78%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" style="width: 78%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-tags-row">
+                            <span class="skill-tag-pill">Tailwind CSS</span>
+                            <span class="skill-tag-pill">Micro animations</span>
+                            <span class="skill-tag-pill">Design systems</span>
+                            <span class="skill-tag-pill">Accessibility basics</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="timeline" class="section">
+                <div class="section-header">
+                    <p class="section-kicker">Journey</p>
+                    <h2 class="section-title">Experience &amp; Education</h2>
+                    <p class="section-subtitle">
+                        A quick look at how I got here and what I&apos;ve been working on along the way.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-bullet"></div>
+                        <h3 class="timeline-title">BSc Computer Science</h3>
+                        <p class="timeline-meta">Tolani College · 20XX – 20XX</p>
+                        <p class="timeline-desc">
+                            Built a strong foundation in computer science fundamentals and started
+                            exploring web development, projects and core programming concepts.
+                        </p>
+                        <span class="timeline-tag">Academics</span>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-bullet"></div>
+                        <h3 class="timeline-title">Learning Management System (LMS) Project</h3>
+                        <p class="timeline-meta">Personal / Academic · 20XX</p>
+                        <p class="timeline-desc">
+                            Designed and developed a full LMS UI with course pages, video hosting,
+                            dashboards and user roles. Focused on clean layouts and real-world UX.
+                        </p>
+                        <span class="timeline-tag">Major project</span>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-bullet"></div>
+                        <h3 class="timeline-title">Frontend Projects &amp; Freelance Work</h3>
+                        <p class="timeline-meta">Ongoing</p>
+                        <p class="timeline-desc">
+                            Building React-based frontends, experimenting with animations, and refining
+                            API integrations, state management and reusability.
+                        </p>
+                        <span class="timeline-tag">Frontend focus</span>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="section contact-section">
+                <div class="section-header">
+                    <p class="section-kicker">Contact</p>
+                    <h2 class="section-title">Let’s Connect</h2>
+                    <p class="section-subtitle">
+                        Open to frontend roles, collaborations & freelance work.
+                        You can reach me through any of these:
+                    </p>
+                </div>
+
+                <div class="contact-social">
+                    <a href="https://github.com/saurabhjha69" target="_blank" class="social-btn github">
+                        <span>GitHub</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/saurabh-jha-641934264/" target="_blank" class="social-btn linkedin">
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="mailto:jhasaurabh.dev@gmail.com" class="social-btn email">
+                        <span>Email</span>
+                    </a>
+                </div>
+            </section>
+            <section id="credits">
+                <small>&copy; Made with <b>Vanilla Js</b> by <i>Saurabh Jha</i></small>
+            </section>
+
+        </main>
+    </div>
+    
+    <script src="./script.js" ></script>
+
+</body>
+</html>
