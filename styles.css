@@ -733,6 +733,7 @@ body {
 }
 
 .project-tech {
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     gap: 0.3rem;
@@ -748,6 +749,7 @@ body {
 }
 
 .project-link {
+    align-self: end;
     font-size: 0.8rem;
     color: #7dd3fc;
 }
